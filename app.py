@@ -8,7 +8,7 @@ from google.auth.transport.requests import Request
 
 # Define SCOPES and credentials file
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-CREDS_FILE = 'D:\py_projects\Appliance_energy_prediction\client_secret_1018041509959-jh6cq471ag4coeeic6srjgm1hpfbtfu9.apps.googleusercontent.com.json'  # Path to your credentials file
+CREDS_FILE = r'D:\py_projects\Appliance_energy_prediction\client_secret_1018041509959-jh6cq471ag4coeeic6srjgm1hpfbtfu9.apps.googleusercontent.com.json'  # Path to your credentials file
 
 # Function to authenticate and create Google Drive service
 def authenticate_google_drive():
