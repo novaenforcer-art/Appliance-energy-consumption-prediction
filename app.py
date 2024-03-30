@@ -2,9 +2,14 @@ import streamlit as st
 import pandas as pd
 import pickle
 import os
+import webbrowser  # Import webbrowser module
+
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+
+# Set browser for web authentication
+webbrowser.register('chrome', None, webbrowser.BackgroundBrowser("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"))
 
 # Define SCOPES and credentials file
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
