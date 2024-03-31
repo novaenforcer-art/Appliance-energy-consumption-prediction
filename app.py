@@ -8,7 +8,7 @@ from google.auth.transport.requests import Request
 
 # Define SCOPES and credentials file
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-CREDS_FILE = r'D:\py_projects\Appliance_energy_prediction/second.json'  # Path to your credentials file
+CREDS_FILE = 'second.json'  # Path to your credentials file
 PORT_NUMBER = 8501  # Define your fixed port number here
 REDIRECT_URI = f'http://localhost:{PORT_NUMBER}/'  # Define your fixed localhost redirect URI here
 
