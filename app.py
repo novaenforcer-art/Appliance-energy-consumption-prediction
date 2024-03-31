@@ -6,9 +6,6 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
-# Specify the path to the browser executable
-st.set_option('browser.serverAddress', 'C:/Program Files/Google/Chrome/Application/chrome.exe')
-
 # Define SCOPES and credentials file
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 CREDS_FILE = 'second.json'  # Path to your credentials file
